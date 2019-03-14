@@ -93,7 +93,7 @@ GET: /quote/symbol.list
 HTTP GET: https://api.55.com/quote/symbol.list
 ```
 
-```json
+```json5
 [ 
   {
     "symbol" : "AAPLTUSDT",
@@ -139,7 +139,7 @@ GET: /quote/realTime.last
 HTTP GET: https://api.55.com/quote/realTime.last?symbol=FFBTC&symbol=BTCUSDT
 ```
 
-```json
+```json5
 {
   "BTCUSDT" : {
     "status" : "SUCCESS",
@@ -267,7 +267,7 @@ GET: /quote/tradeHistory.list
 ```
 HTTP GET：https://api.55.com/quote/tradeHistory.list?symbol=ETCBTC&least=5
 ```
-```json
+```json5
 {
   "status" : "SUCCESS",
   "message" : null,
@@ -371,7 +371,7 @@ GET: /quote/depth.list
 ```
 HTTP GET：https://api.55.com/quote/depth.list?symbol=FFUSDT
 ```
-```json
+```json5
 {
   "status" : "SUCCESS",
   "message" : null,
@@ -519,7 +519,7 @@ GET: /quote/summarized.timeRange
 ```
 HTTP GET：https://api.55.com/quote/summarized.timeRange?symbol=FFUSDT&interval=MINUTE_1&startDateTime=1543108140000&endDateTime=1543640940000
 ```
-```json
+```json5
 {
   "status": "SUCCESS",
   "message": null,
@@ -611,7 +611,7 @@ GET: /quote/summarized.trailing
 ```
 HTTP GET：https://api.55.com/quote/summarized.trailing?symbol=ETHUSDT&endDateTime=1552176000000&interval=MINUTE_1&dateTimeUnit=MINUTE_1&periods=2
 ```
-```json
+```json5
 {
     "status": "SUCCESS",
     "message": null,
@@ -743,7 +743,7 @@ GET: /quote/historical.timeRange
 ```
 HTTP GET：https://api.55.com/quote/historical.timeRange?symbol=FFUSDT&interval=DAY&startDate=1541289600000&endDate=1543881600000
 ```
-```json
+```json5
 {
   "status": "SUCCESS",
   "message": null,
@@ -817,7 +817,7 @@ GET: /quote/historical.trailing
 ```
 HTTP GET：https://api.55.com/quote/historical.trailing?symbol=ETHUSDT&endDate=1552176000000&interval=DAY&dateTimeUnit=DAY&periods=2
 ```
-```json
+```json5
 {
     "status": "SUCCESS",
     "message": null,
